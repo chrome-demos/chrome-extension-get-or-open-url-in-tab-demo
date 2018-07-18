@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Get url of current tag",
-  "description": "This extension will alert the url of current tag",
+  "name": "chrome-extension-get-or-open-url-in-tab-demo",
+  "description": "chrome-extension-get-or-open-url-in-tab-demo",
   "version": "1.0",
 
   "browser_action": {
@@ -10,6 +10,6 @@
     "default_popup": "hello.html"
   },
   "permissions": [
-    "activeTab"
+    "tabs"
   ]
 }
